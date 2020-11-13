@@ -22,8 +22,8 @@ public class FaceRecognitionEigenFaces {
 		//System.loadLibrary("libopencv_java342");
 		Loader.load(opencv_java.class);
 		System.out.println("Library loaded!!");
-		ArrayList<Mat> images=new ArrayList<>();
-		ArrayList<Integer> labels=new ArrayList<>();
+		ArrayList<Mat> images=new ArrayList<Mat>();
+		ArrayList<Integer> labels=new ArrayList<Integer>();
 		readCSV(csvFilePath,images,labels);
 		
 		Mat testSample=images.get(images.size()-1);

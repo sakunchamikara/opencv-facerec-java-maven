@@ -30,7 +30,7 @@ public class FaceDetection {
 
 	public static void main(String[] args) {
 		try {
-			//System.loadLibrary("libopencv_java342");
+//			System.loadLibrary("libopencv_java342");
 			Loader.load(opencv_java.class);
 			System.out.println("Library loaded..");
 			Mat frame=Imgcodecs.imread(inpImgFilename, 1);

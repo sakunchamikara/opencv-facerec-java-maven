@@ -8,12 +8,19 @@
   <name>opencv-facerec-java-maven</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-   <dependency>
-            <groupId>org.bytedeco.javacpp-presets</groupId>
-            <artifactId>opencv-platform</artifactId>
-            <version>4.0.0-1.4.4-SNAPSHOT</version>
-        </dependency>
-    <dependency>
+<!--      <dependency>-->
+<!--      <groupId>org.bytedeco.javacpp-presets</groupId>-->
+<!--      <artifactId>opencv</artifactId>-->
+<!--      <version>4.0.1-1.4.4</version>-->
+<!--  </dependency>-->
+
+      <dependency>
+          <groupId>org.bytedeco.javacpp-presets</groupId>
+          <artifactId>opencv-platform</artifactId>
+          <version>4.0.1-1.4.4</version>
+      </dependency>
+
+      <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
